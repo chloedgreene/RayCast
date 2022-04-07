@@ -1,0 +1,10 @@
+[package]
+name = "RayCast"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gba = { git = "https://github.com/connortgreene/gba.git", branch = "main" }
+font8x8 = "0.3.1"
